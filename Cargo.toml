@@ -1,0 +1,17 @@
+[package]
+name = "fft_rust_in_python"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "fft_rust_in_python"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.22.0"
+csv = "1.3.1"
+rustfft = "6.2.0"
+plotters = "0.3.7"
+plotters-bitmap = "0.3.7"
+image = "0.25.5"
